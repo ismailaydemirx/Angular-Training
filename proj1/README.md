@@ -215,7 +215,8 @@ ng g component components/header
 yukarıda **components klasörü** içerisinde header adında component oluşturduk.
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dac8fad1-6570-4416-bf03-d9507a444681/70e40525-aff5-42d2-b021-3d202582727a/Untitled.png)
+![image](https://github.com/user-attachments/assets/ab01e69a-cd85-4c20-a198-5f8610a4a3c7)
+
 
 src → app → components → header adında 1 component oluşturduk.
 
@@ -225,7 +226,8 @@ src → app → components → header adında 1 component oluşturduk.
 
 Şimdi routing ile kullanıcının view’lar arasında dolaşmasını sağlayalım.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dac8fad1-6570-4416-bf03-d9507a444681/ba635dd2-4b27-431b-b5c3-caa8129d5cc5/Untitled.png)
+![image](https://github.com/user-attachments/assets/271dfd98-3db9-4316-b0e4-5be87ade6906)
+
 
 **app→ app.routes.ts**
 
@@ -241,13 +243,15 @@ kısmını kullanarak routing yapacağız.
 
 Şimdi aşağıda routing kısmında component’lerimiz için tanımlarımızı yaptık.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dac8fad1-6570-4416-bf03-d9507a444681/0d9e24f3-2483-457b-8eb8-57041e6e66c1/Untitled.png)
+![image](https://github.com/user-attachments/assets/c9de5e3c-2391-4fb2-8833-66306447b80f)
+
 
 Tanımları yaptıktan sonra [localhost:4200/about](http://localhost:4200/about) veya [localhost:4200/](http://localhost:4200/about)contact sitelerine gittiğimizde herhangi bir şey gözükmezse bu **app.component.html** dosyasında **router-outlet** taglarını açmadığımızdan kaynaklıdır.
 
 Aşağıdaki gibi tanım yapmalıyız.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dac8fad1-6570-4416-bf03-d9507a444681/b2549173-0a05-40df-b3d2-9fa19e0b4bd1/Untitled.png)
+![image](https://github.com/user-attachments/assets/54da87b4-e2b3-4cd4-95fc-52bfa1da585f)
+
 
 ---
 

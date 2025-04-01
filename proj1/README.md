@@ -136,7 +136,8 @@ src/
 - `tsconfig.json`: TypeScript ayarları
 - **node_modules:**  Uygulamada kullanılan paketler bu dizinde  bulunur.
 
-![image.png](attachment:ab79a46d-4229-43ce-8167-bf725e167cf7:image.png)
+![image](https://github.com/user-attachments/assets/6534755e-94bb-412c-a6ee-b855bb98b1e1)
+
 
 - `src`  (Source) klasörünün içindeki `app` klasörü, genellikle bir Angular projesinin ana klasör yapısında yer alır. Uygulamanın en önemli klasörüdür. Uygulamayla ilgili hayati dosyalar bu klasörde bulunur. Çalışmalarımızın büyük kısmı (%99’u) bu klasörde gerçekleşecektir.
 - `app` klasörü, Angular uygulamasının **temel bileşenlerini içerir.** Bu bileşenler genellikle **modüller**, **bileşenler**, **servisler**, **yönlendirme ayarları** gibi kod parçalarını içerir.
@@ -153,13 +154,15 @@ src/
 - Bu klasörde genellikle "**app.module.ts**" gibi ana modül dosyası, kullanılacak bileşenlerin ve hizmetlerin tanımlandığı birimler bulunur.
 - Ayrıca, proje içerisindeki farklı sayfalar veya özellikler için ayrı alt klasörler de oluşturulabilir, bu alt klasörlerde ilgili bileşen dosyaları ve hizmet dosyaları yer alabilir.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dac8fad1-6570-4416-bf03-d9507a444681/4cb92c02-2ac2-4ca5-8272-c2fff557ac52/Untitled.png)
+![image](https://github.com/user-attachments/assets/16b491a1-002b-43c0-9dbb-9add60183818)
+
 
 Yukarıda, **angular.json** içinde bulunan **styles**  kısmını css kısımları için **scripts** kısmını ise script dosyaları için projeden herhangi bir şekilde izin almadan yükleyebileceğimiz kısımlardır.
 
 ---
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/dac8fad1-6570-4416-bf03-d9507a444681/d4c652f1-0e5c-4dd6-a402-2ace97c3f42b/Untitled.png)
+![image](https://github.com/user-attachments/assets/cfde78cb-7c67-44ba-ba66-1cdf121a101b)
+
 
 - **Components**, Angular projelerinde web sayfalarındaki farklı bölümleri temsil eder ve **iletişim kurabilirler**.
 - Varsayılan olarak "**App**" componenti gelir ve yapısı belirli dosyalarla tanımlanır.
